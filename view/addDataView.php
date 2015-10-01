@@ -3,7 +3,7 @@
     <title>Black accounting</title>
     <link href="/css/style.css" rel="stylesheet">
 </head>
-<body style="background-image:url(/images/money.jpg)">
+<body >
 
 <form method="POST">
     <h1 >Data update:</h1>

@@ -6,7 +6,9 @@ p{
 }
 body {
     text-align: center;
+    background-image: url(/images/money.jpg);
 }
+
 h1{
     color:red;
 }
