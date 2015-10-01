@@ -28,4 +28,12 @@ class DBModel
         $stmt->bindParam(':room', $roomDelete);
         $stmt->execute();
     }
+    public function view()
+    {
+        $sql = "SELECT Room,Period, Price, Name FROM `PaidForInternet`";
+        $stmt = $this->connection->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        return $result;
+    }
 }
